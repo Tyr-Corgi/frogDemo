@@ -40,7 +40,7 @@ class Program
         //stil frog writing
         else
         {
-            Console.WriteLine("incorrect answer, no frogs will be typed.");
+            Console.WriteLine("incorrect answer, no frogs will be typed");
 
         }
 
