@@ -40,18 +40,7 @@ class Program
         //stil frog writing
         else
         {
-            Console.WriteLine("still getting " + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 +
-                frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 +
-                frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 +
-                frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 +
-                frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 +
-                frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 +
-                frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 +
-                frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 +
-                frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 +
-                frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 +
-                frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 +
-                frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2);
+            Console.WriteLine("incorrect answer, no frogs will be typed.");
 
         }
 
