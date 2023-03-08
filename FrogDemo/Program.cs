@@ -10,6 +10,8 @@ class Program
         string frog2 = "frogFrog";
         string frogInput;
         string frogYes = "yes";
+        string frogSecret = "frog, please";
+
        
         //input section
 
@@ -27,11 +29,19 @@ class Program
             Console.WriteLine(frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 +
                 frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 +
                 frog1 + frog2 + frog1 + frog2);
-           
+
 
 
         }
         //failure statement
+
+        else if (frogInput == frogSecret)
+        {
+            Console.WriteLine("Not sure how you know about that, but here's frogs anyway " + "\n" + 
+                frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 +
+                frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 +
+                frog1 + frog2 + frog1 + frog2);
+        }
 
         else
         {
