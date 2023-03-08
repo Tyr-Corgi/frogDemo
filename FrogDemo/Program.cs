@@ -31,7 +31,7 @@ class Program
 
 
         }
-        //failure statement, can be null
+        //failure statement
 
         else
         {
