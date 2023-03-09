@@ -1,8 +1,10 @@
-﻿namespace MethodsDemo;
+﻿using System.Diagnostics;
+
+namespace MethodsDemo;
 class Program
 {
 
-    
+
     static void Main(string[] args)
     {
         //intializing and defining variables
@@ -10,9 +12,13 @@ class Program
         string frog2 = "frogFrog";
         string frogInput;
         string frogYes = "yes";
-        string frogSecret = "frog, please";
+        string frogSecret = "here come dat boi";
+        var lineCount = 0;
+        var cutLine = 10;
+        
 
-       
+
+
         //input section
 
         Console.WriteLine("Do you like frogs? Type yes for frogs.");
@@ -24,35 +30,39 @@ class Program
 
         //positive statement, frogInput matches "yes"
 
+
         if (frogInput == frogYes)
-        {
-            Console.WriteLine(frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 +
-                frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 +
-                frog1 + frog2 + frog1 + frog2);
+            while ((++lineCount) < cutLine)
+            {
+
+                Console.WriteLine($"{frog1}  {frog2}");
+                Thread.Sleep(500);
 
 
-
-        }
-        //failure statement
+            }
+        //else if statement, easter egg style
 
         else if (frogInput == frogSecret)
         {
-            Console.WriteLine("Not sure how you know about that, but here's frogs anyway " + "\n" + 
-                frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 +
-                frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 + frog1 + frog2 +
-                frog1 + frog2 + frog1 + frog2);
+            Console.WriteLine("Not sure how you know about that, but here's frogs anyway");
+            Process.Start(new ProcessStartInfo("https://www.youtube.com/watch?v=CU5ByOf9eP0") { UseShellExecute = true });
+
+
         }
 
+
+        //failure statement
         else
         {
             Console.WriteLine("incorrect answer, no frogs will be typed");
 
+
         }
-
+       
     }
-  
 
-    
-    
+
+
+
 }
 
