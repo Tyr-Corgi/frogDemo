@@ -45,6 +45,7 @@ class Program
         else if (frogInput == frogSecret)
         {
             Console.WriteLine("Not sure how you know about that, but here's frogs anyway");
+            Thread.Sleep(3000);
             Process.Start(new ProcessStartInfo("https://www.youtube.com/watch?v=CU5ByOf9eP0") { UseShellExecute = true });
 
 
