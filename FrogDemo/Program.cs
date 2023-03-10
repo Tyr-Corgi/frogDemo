@@ -13,9 +13,6 @@ class Program
         string frogInput;
         string frogYes = "yes";
         string frogSecret = "here come dat boi";
-        var lineCount = 0;
-        var cutLine = 10;
-        
 
 
 
