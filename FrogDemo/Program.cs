@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace MethodsDemo;
+namespace FrogDemo;
 class Program
 {
 
