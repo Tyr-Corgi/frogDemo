@@ -32,7 +32,7 @@ class Program
 
 
         if (frogInput == frogYes)
-            while ((++lineCount) < cutLine)
+            for (int i = 0; i <= 10; i++)
             {
 
                 Console.WriteLine($"{frog1}  {frog2}");
