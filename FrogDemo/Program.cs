@@ -1,20 +1,16 @@
 ﻿using System.Diagnostics;
-
 namespace FrogDemo;
 class Program
 {
-
-
     static void Main(string[] args)
     {
         //intializing and defining variables
+
         string frog1 = "Frog";
         string frog2 = "frogFrog";
         string frogInput;
         string frogYes = "yes";
         string frogSecret = "here come dat boi";
-
-
 
         //input section
 
@@ -24,19 +20,15 @@ class Program
         frogInput = Console.ReadLine();
 #pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
 
-
         //positive statement, frogInput matches "yes"
-
 
         if (frogInput == frogYes)
             for (int i = 0; i <= 10; i++)
             {
-
                 Console.WriteLine($"{frog1}  {frog2}");
                 Thread.Sleep(500);
-
-
             }
+
         //else if statement, easter egg style
 
         else if (frogInput == frogSecret)
@@ -44,23 +36,13 @@ class Program
             Console.WriteLine("Not sure how you know about that, but here's frogs anyway");
             Thread.Sleep(3000);
             Process.Start(new ProcessStartInfo("https://www.youtube.com/watch?v=CU5ByOf9eP0") { UseShellExecute = true });
-
-
         }
-
 
         //failure statement
         else
         {
             Console.WriteLine("incorrect answer, no frogs will be typed");
-
-
         }
-       
     }
-
-
-
-
 }
 
